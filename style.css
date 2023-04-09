@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+.navigasi{
+    background-color: #023974;
+    width: 100%;
+    height: 70px;
+    color: white;
+    position: fixed;
+}
+
+.logo{
+    padding-top: 15px ;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    float: left;
+}
+
+.menu{
+    margin-left: 700px;
+    padding-top: 15px;
+}
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li a:hover{
+    color: lightskyblue;
+    font-style: italic;
+}
+
+.landing {
+    background-position: center;
+    background-size: cover;
+    background-image: url(gambar/1.JPG);
+    height: 700px;
+    text-align: center;
+    color: white;
+    position: inherit;
+    padding-top: 120px;
+    background-color: rgba(2, 57, 116, 5.8 );
+}
+
+.landing img{
+    border-radius: 0px;
+    height: 120px;
+    border: 0px solid wheat;
+    margin-top: 100px;
+}
+.landing h1{
+    text-decoration-style: double;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.landing button{
+    margin-top: 30px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    color: #023974;
+}
+.landing button:hover{
+    background-color: #3b6999;
+    border: 2px solid white;
+}
+
+h1 span::before{
+    content: '';
+    animation: gerak infinite 5s ease;
+    transform: translateY(-50%);
+    color: #023974;
+    font-family: 70px;
+}
+.landing p{
+    margin-top: 100px;
+    font-size: 20px;
+}
+@keyframes gerak{
+    0%{
+        content: '';
+    }
+    50%{
+        content: 'Everyone';
+    }
+    100%{
+        content: 'Just Call Me Yasmin';
+    }
+}
+.aboutme {
+    background-color: white;
+    height: 400px;
+    text-align: center;
+    color: #023974;
+    margin-top: 50px;
+    align-content: center;
+}
+.paragraf1, .paragraf2, .paragraf3{
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    padding: 10px 30px;
+    margin: 20px 20px 20px 50px;
+    background-color: none;
+    float: left;
+    border-radius: 15px;
+    background-color: lightblue;
+} 
+.paragraf1 i, .paragraf2 i, .paragraf3 i{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.paragraf1 p, .paragraf2 p, .paragraf3 p{
+    margin-top: 15px;
+}
+.award{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    padding-top: 50px;
+    align-content: center;
+    background-color: #023974;
+    height: 400px;
+}
+.award 
+.kotak1, .kotak2, .kotak3 {
+    text-align: center;
+    color: #023974;
+    width: 300px;
+    height: 250px;
+    padding: 5px 30px;
+    margin: 30px 20px 20px 50px;
+    background-color: white;
+    float: left;
+    border-radius: 15px;
+}
+.kotak1 p, .kotak2 p, .kotak3 p{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+
+section.softskill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: white;
+}
+section.softskill div.softskill-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: var(--width);
+}
+
+section.softskill div.softskill-wrapper div.title {
+    font-size: 60px;
+    color: #023974;
+    font-weight:300px;
+    padding-top: 25px;
+}
+
+section.softskill div.softskill-wrapper div.content {
+    width: 800px;
+    padding-top: 5px;
+    padding-left: 70px;
+}
+
+section.softskill div.softskill-wrapper div.content p {
+    font-size: 20px;
+}
+
+section.contact{
+    color: white;
+    background-color: #023974;
+    height: 300px;
+}
+section.contact div.sosmed{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.contact p{
+    padding-top: 20px;
+}
+.contact p i{
+    font-size: 20px;
+}
+section.contact div.footer{
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    padding-left: 1090px;
+    align-items: center;
+}
